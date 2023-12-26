@@ -1,6 +1,6 @@
 #!name=LSP基地
 #!desc=解锁 91短视频、50度灰、微密圈、撸先生 VIP
-#!author=Yuheng0101
+#!author=𝒀𝒖𝒉𝒆𝒏𝒈
 #!homepage=https://github.com/Yuheng0101/X
 #!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1054.png
 
@@ -10,7 +10,7 @@ hostname = *.bmafdxt.com, *.yxlauhm.com, *.psovzwr.com, *.50*api.com, *.wmq*api*
 
 [URL Rewrite]
 
-	# 𝐀𝐋𝐋
+# 𝐀𝐋𝐋
 ^(https?:\/\/)(?!long)([^./]+\.)*(longyuandingyi.com|zihzot.com|snowing.ren|vzcnqmr.cn|beibeini3.cn|pili01a.net|hhclyjz.cn|bhhcdou.cn|xuxivwx.cn|sdtuxyh.cn|kngpdsz.cn|sugugaj.cn|mqqjrv.com|gnikvh.com|auhvylo.cn)(\/.*)? $1long.$3$4 302
 
 [Script]
