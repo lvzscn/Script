@@ -16,16 +16,16 @@ hostname = *.bmafdxt.com, *.yxlauhm.com, *.psovzwr.com, *.50*api.com, *.wmq*api*
 [Script]
 
 # 91短视频
-http-request ^https?:\/\/.*(bmafdxt|yxlauhm|psovzwr).com/pwa.php script-path=https://raw.githubusercontent.com/lvzscn/Script/main/Loon/JS/lsp.js, requires-body=true, timeout=60, tag=lsp
+http-request ^https?:\/\/.*(bmafdxt|yxlauhm|psovzwr).com/pwa.php script-path=https://raw.githubusercontent.com/lvzscn/Script/main/Loon/JS/lsp.js, requires-body=true, timeout=60, tag=91短视频
 
 # 50度灰
-http-response ^https?:\/\/.*50.*api.com/pwa.php/api/(user/userinfo|MvDetail/(detail|xiao_detail)|home/(getOpenAdsAndVersion|appcenter)|system/getad) script-path=https://raw.githubusercontent.com/lvzscn/Script/main/Loon/JS/lsp.js, requires-body=true, timeout=60, tag=lsp
+http-response ^https?:\/\/.*50.*api.com/pwa.php/api/(user/userinfo|MvDetail/(detail|xiao_detail)|home/(getOpenAdsAndVersion|appcenter)|system/getad) script-path=https://raw.githubusercontent.com/lvzscn/Script/main/Loon/JS/lsp.js, requires-body=true, timeout=60, tag=50度灰
 
 # 微密圈
-http-request ^https?:\/\/.*(wmq.*api\d+).com/pwa.php script-path=https://raw.githubusercontent.com/lvzscn/Script/main/Loon/JS/lsp.js, requires-body=true, timeout=60, tag=lsp
+http-request ^https?:\/\/.*(wmq.*api\d+).com/pwa.php script-path=https://raw.githubusercontent.com/lvzscn/Script/main/Loon/JS/lsp.js, requires-body=true, timeout=60, tag=微密圈
 
 # 撸先生
-http-request ^https?:\/\/.*hichatapi.+\/api\.php$ script-path=https://raw.githubusercontent.com/lvzscn/Script/main/Loon/JS/lsp.js, requires-body=true, timeout=60, tag=lsp
+http-request ^https?:\/\/.*hichatapi.+\/api\.php$ script-path=https://raw.githubusercontent.com/lvzscn/Script/main/Loon/JS/lsp.js, requires-body=true, timeout=60, tag=撸先生
 
 # 净化 + 解锁抖阴
-http-response ^https?:\/\/qqcapi.*.com\/api\/(v2\/bootstrap|promo\/popup|(task_ad|module)\/list|operation\/ads|user\/read|investment|ad\/ad_position_config|bottom_nav|navs\/top|rich_new\/index|user\/privilege|v3\/shortvideo\/view\/\d+) script-path=https://raw.githubusercontent.com/lvzscn/Script/main/Loon/JS/qqc.js, requires-body=true, timeout=60, tag=qqc
+http-response ^https?:\/\/qqcapi.*.com\/api\/(v2\/bootstrap|promo\/popup|(task_ad|module)\/list|operation\/ads|user\/read|investment|ad\/ad_position_config|bottom_nav|navs\/top|rich_new\/index|user\/privilege|v3\/shortvideo\/view\/\d+) script-path=https://raw.githubusercontent.com/lvzscn/Script/main/Loon/JS/qqc.js, requires-body=true, timeout=60, tag=青青草视频
